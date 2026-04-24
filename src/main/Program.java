@@ -1,4 +1,6 @@
 package main;
+
+import teszt.Tesztek;
 /**
  *
  * @author Nao
@@ -18,5 +20,8 @@ public class Program {
         System.out.println(a1.szovegesMegjelenites());
         System.out.println("Asztal vizuálisan:");
         System.out.println(a1.vizualisMegjelenites());
+        
+        //tesztesetek
+        Tesztek.futtat();
     }
 }
